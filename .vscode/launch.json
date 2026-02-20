@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Dynamic Pool Worker",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/cmd/dynamic_pool_worker/dynamic_pool_worker.go",
+            "env": {},
+            "args": []
+        }
+    ]
+}
