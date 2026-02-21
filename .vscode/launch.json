@@ -10,12 +10,21 @@
             "env": {},
             "args": []
         },
-                {
+        {
             "name": "Launch Dynamic data_pipeline",
             "type": "go",
             "request": "launch",
             "mode": "auto",
             "program": "${workspaceFolder}/cmd/data_pipeline/data_pipeline.go",
+            "env": {},
+            "args": []
+        },
+        {
+            "name": "Launch Dynamic merge_sort",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/cmd/merge_sort/merge_sort.go",
             "env": {},
             "args": []
         },
